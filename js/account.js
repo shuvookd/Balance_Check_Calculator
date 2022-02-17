@@ -18,14 +18,20 @@ document.getElementById('btn-calc').addEventListener('click',function(){
     // Total Expences
     document.getElementById('expencesAmount');
     expencesAmount.innerText = totalRentCost + totalFoodCost + totalClothesCost;
+    const totalCost = expencesAmount.innerText
+
+    // Balance Update
+    // Total Salary
+    const calcSal = document.getElementById('income');
+    const calcSalary = calcSal.value;
+    const totalSalary = parseFloat(calcSalary);
+    // Balance Remaining after cost
+    document.getElementById('totalBalance');
+    totalBalance.innerText = totalSalary - totalCost ;
+    
 })
-// Balance Update
-// Total Salary
-const calcSal = document.getElementById('income');
-const calcSalary = calcSal.innerText;
-const totalSalary = parseFloat(calcSalary);
-
-const totalexpences = document.getElementById('expencesAmount');
-const totalCost = expencesAmount.innerText
-
-totalBalance.innerText = totalSalary - totalCost ;
+//  Save Calcutation
+document.getElementById('btn-save').addEventListener('click',function(){
+    
+    
+})
