@@ -70,4 +70,17 @@ document.getElementById('btn-calc').addEventListener('click',function(){
 
     
 })
-
+// income input validation
+// const income = document.getElementById("income").value;
+// console.log(income);
+// if(typeof(income) == 'string') {
+//     document.getElementById("income").style.border = "thick solid red";
+//     alert('Invalid');
+// }
+// if(income< 0 ){
+//     document.getElementById("income").style.border = "thick solid red";
+//     alert('Invalid');
+// } 
+// if(income<totalCost){
+//     alert('Invalid');
+// }
