@@ -1,0 +1,104 @@
+/* Body Section */
+.body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.areaimg{
+    border-radius: 2%;
+    height: 500px;
+    margin-left: 10%;
+    border: 4px solid blanchedalmond;
+    background-color: rgb(255, 255, 255);
+}
+.areaincome{
+    border-radius: 2%;
+    height: 500px;
+    border: 4px solid blanchedalmond;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.center {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+.income{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding-left: 30%;
+}
+.expences{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 30%;
+    padding-right: 60%;
+    }
+.btn{
+    margin-left: 45%;
+}
+.balance{
+    padding-left: 30%;
+}
+.save{
+    display:flex;
+    
+    padding-left: 30%;
+}
+.sbtn{
+    margin-left:45%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.save-per{
+    margin-right: 10%;
+}
+.per{
+    margin-left: 50%;
+}
+
+/* Media Queries  */
+/* Mobile Devices  */
+@media only screen and (max-width: 576px){
+    .body{
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        margin: auto;
+    
+    }
+    .areaimg{
+        margin: 2%;
+        height: auto;
+    }
+    .areaincome{
+        
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+    .income{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+    }
+    .expences{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 15%;
+    }
+    .btn{
+        margin-left: 35%;
+    }
+    .save{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 5%;
+    }
+    .balance{
+        padding-left: 15%;
+    }
+            
+}
